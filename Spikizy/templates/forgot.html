@@ -1,0 +1,34 @@
+<html>
+
+<head>
+
+   <Title>Forgot Password</title>
+   <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="../static/css/register.css">
+
+   <link rel="shortcut icon" href="../static/favicon.png">
+
+</head>
+
+<body>
+
+   <!-- The form authorization
+ ================================================== -->
+   <div class="row">
+      <!-- Form connects with signin.php to check data validation and start session to take access for index.php -->
+      <form method="post" action="/forgot">
+         <h1>Forgot Password</h1>
+         <h2>Enter your email</h2>
+
+         <input name="uname" type="text" id="contactName" placeholder="Email" value="" minLength="6" required
+            tooltip="Enter your email" />
+
+         <button class="submitform">Submit</button>
+         <p>
+            <a href="/login">Log In</a>
+         </p>
+
+</body>
+
+<html>

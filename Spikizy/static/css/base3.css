@@ -1,0 +1,224 @@
+html {
+	font-family: 'Roboto';
+}
+
+body {
+	margin: 0;
+}
+
+footer,
+header,
+section{
+	display: block;
+}
+
+a {
+	background: transparent;
+}
+
+img {
+	border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+html input[type="button"],
+input[type="submit"] {
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+input {
+	line-height: normal;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/*
+/* Basic Setup Styles
+/* =================================================================== */
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 62.5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-weight: normal;
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+}
+
+/*
+/* Typography 
+====================================================================== */
+
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-rendering: optimizeLegibility;
+	line-height: 1.2;
+}
+
+/* links
+---------------------------------------------------------------------- */
+a {
+	text-decoration: none;
+	line-height: inherit;
+}
+
+a img {
+	border: none;
+}
+
+a:focus {
+	outline: none;
+}
+
+p a,
+p a:visited {
+	line-height: inherit;
+}
+/* 
+/* Grid
+===================================================================== */
+.fullscreen{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.row {
+	width: 87.5%;
+	margin: 0 12.5%;
+}
+
+.align-center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding-right: 5%;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+
+/*checks
+==================================================================*/
+#check1:checked~.data1 {
+	display: block;
+}
+
+#check2:checked~.data2 {
+	display: block;
+}
+
+#check3:checked~.data3 {
+	display: block;
+}
+
+#check4:checked~.data4 {
+	display: block;
+}
+
+#check5:checked~.data5 {
+	display: block;
+}
+
+#check6:checked~.data6 {
+	display: block;
+}
+
+#check0:checked~.data0 {
+	display: block;
+}
+
+#check0:checked~ label {
+	visibility: hidden;
+}
+
+#check0:checked~ label::after {
+	content: 'Show Less';
+	display: block;
+	visibility: visible;
+}
+
+#check5:checked~ label {
+	visibility: hidden;
+}
+
+#check5:checked~ label::after {
+	content: 'Show Less';
+	display: block;
+	visibility: visible;
+}
+
+#check6:checked~ label {
+	visibility: hidden;
+}
+
+#check6:checked~ label::after {
+	content: 'Show Less';
+	display: block;
+	visibility: visible;
+}

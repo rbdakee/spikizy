@@ -1,0 +1,556 @@
+/* body 
+---------------------------------------------------------------------- */
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background: #ffffff;
+	font: 16px 'Public Sans';
+	font-weight: normal;
+	color: #3F3F3F;
+}
+
+/* typography
+--------------------------------------------------------------------- */
+h3 {
+	color: #FFFFFF;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+}
+
+h4,
+h5,
+h6 {
+	color: black;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin: 1.2% 0 1%;
+}
+
+h3 {
+	font-size: 2.1875vw;
+	letter-spacing: 6.25%;
+	margin-top: 1%;
+}
+
+h4 {
+	font-size: 2.1875vw;
+	line-height: 156.25%;
+	font-weight: 600;
+	margin-left: 1.5625vw;
+	margin-top: 1.875vw;
+}
+
+h5 {
+	font-size: 3.4375vw;
+	margin: 5vw 0 3vw;
+	letter-spacing: 6.25%;
+}
+
+h6 {
+	font-size: 1.25vw;
+	text-align: start;
+}
+
+p {
+	font-size: 1.125vw;
+}
+
+ul {
+	list-style: none;
+}
+
+/* hero section
+/* =================================================================== */
+
+#hero {
+	background: #21232c;
+	height: fit-content;
+	width: 100%;
+	text-align: left;
+	padding-top: 1.25%;
+	padding-bottom: 1.25%;
+}
+
+#hero p {
+	color: #FFFFFF;
+}
+
+#hero span {
+	color: #fadf32;
+}
+
+#hero a {
+	color: rgb(165, 138, 255);
+}
+
+#hero a:hover {
+	color: rgb(255, 255, 255);
+}
+
+.description {
+	padding-top: 0.625%;
+	font-weight: 500;
+}
+
+.coursestat {
+	padding-top: 0.625%;
+	font-size: 0.9375vw;
+	line-height: 156.25%;
+}
+
+#coursepanel {
+	width: 26.67%;
+	position: fixed;
+	z-index: 1;
+	left: 65%;
+	height: fit-content;
+	border: 0.01vw solid #c9c9c9;
+	background: #ffffff;
+}
+
+#coursepanel p {
+	color: #000000;
+}
+
+.cart {
+	background: #d000ff;
+	border: none;
+	color: #ffffff;
+	width: 87.5%;
+	padding: 2.5% 0;
+	font-size: 1.2vw;
+	font-weight: 500;
+	margin: 2.5% auto;
+}
+
+.cart:hover {
+	background: #c300ef
+}
+
+.buy {
+	background: #ffffff;
+	width: 87.5%;
+	border: 0.01vw solid;
+	padding: 2.5% 0;
+	font-size: 1.2vw;
+	font-weight: 500;
+	margin: 0 auto 5%;
+}
+
+.buy:hover {
+	background: #F3F4F5;
+}
+
+/* main section
+/* =================================================================== */
+
+#main {
+	padding: 1.25% 0;
+}
+
+#main h5 {
+	font-weight: 500;
+	font-size: 2.1875vw;
+}
+
+#main h3 {
+	font-weight: 800;
+	padding: 2% 0 0 0;
+	font-size: 2.1875vw;
+	color: #3F3F3F;
+}
+
+#main a {
+	font-weight: 500;
+	margin: 0 10% 0 0;
+	font-size: 1.5625vw;
+}
+
+#main a {
+	color: #3F3F3F;
+}
+
+#main a:hover {
+	color: #1E0094;
+}
+
+#main p {
+	font-size: 1.7vw;
+	width: 55%;
+}
+
+#main .data p {
+	position: relative;
+	right: 0;
+}
+
+#main label {
+	color: #6176F7;
+	font-size: 2vw;
+	text-shadow: 0.0625vw 0.0625vw #000000;
+	margin: 0 0 0 1%;
+}
+
+#ad {
+	border: 0.0625vw solid #c9c9c9;
+	width: 15.625vw;
+	height: fit-content;
+}
+
+#ad img {
+	width: 2.1875vw;
+	height: 2.1875vw;
+	margin: 0.9375vw 0.9375vw;
+}
+
+#ad p {
+	font-weight: 700;
+	color: #000000;
+	font-size: 1.125vw;
+	margin: 3.125vw 0.9375vw 1.25vw;
+}
+
+#main .container {
+	margin: 0 0.9375vw 0 0;
+}
+
+/* course material
+/* =================================================================== */
+
+#material {
+	padding: 1.25vw 0;
+}
+
+#material h3 {
+	font-weight: 800;
+	padding: 1.875vw 0 0 0;
+	font-size: 2.1875vw;
+	color: #3F3F3F;
+}
+
+#material h4 {
+	font-weight: 500;
+	font-size: 1.875vw;
+	color: #3F3F3F;
+	line-height: 0vw;
+	padding-bottom: 1.25vw;
+}
+
+#material p {
+	font-weight: 500;
+	font-size: 1.25vw;
+	margin: 1.5625vw 0 0 2.1875vw;
+	line-height: 0;
+}
+
+.graybox {
+	margin-top: 2%;
+	padding: 2%;
+	background: #F3F4F5;
+	width: 54%;
+	border-radius: 0.1975vw;
+}
+
+.card {
+	background: #FFFFFF;
+	border-radius: 0.9375vw;
+	padding: 0.625%;
+	height: 55%;
+	margin-bottom: 1vw;
+}
+
+.card i {
+	font-size: 1.75vw;
+}
+
+.card .container {
+	justify-content: space-between;
+}
+
+.card img {
+	width: 1.5625vw;
+	height: 1.5625vw;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+.card label {
+	cursor: pointer;
+	margin: 0.00625vw 1.25vw;
+	size: expanded;
+	width: 50%;
+	display: flex;
+	justify-content: end;
+}
+
+.data {
+	display: none;
+}
+
+.data img {
+	position: relative;
+	top: 0.75vw;
+}
+
+.data p {
+	position: relative;
+	right: 0.9375vw;
+}
+
+.column .container {
+	justify-content: start;
+	padding: 0.00625vw 1.5625vw 1.5625vw;
+}
+
+/* learn
+/* =================================================================== */
+
+#learn {
+	padding: 1.25% 0 5%;
+}
+
+#learn h3 {
+	font-weight: 500;
+	padding: 0.02vw 0 0 0;
+	font-size: 2.1875vw;
+	color: #3F3F3F;
+}
+
+#learn img {
+	width: 1.5625vw;
+	height: 1.5625vw;
+	position: relative;
+	margin-right: 1vw;
+	top: 0.3125vw;
+}
+
+hr {
+	width: 100%;
+	height: 0.125vw;
+	background: #F3F4F5;
+	border: none;
+}
+
+.learncon {
+	width: 58%;
+}
+
+#learn .column {
+	width: 50%
+}
+
+/* courses
+/* =================================================================== */
+
+#courses {
+	padding: 0% 0 5%;
+}
+
+#courses h3 {
+	font-weight: 800;
+	font-size: 2.1875vw;
+	padding: 0 0 2%;
+	color: #3F3F3F;
+}
+
+#courses .column {
+	margin: auto 0;
+}
+
+#courses h5 {
+	margin: 0%;
+	font-weight: 500;
+	font-size: 2vw;
+	color: #000000;
+}
+
+#courses p {
+	font-size: 1.5vw;
+	color: #000000;
+}
+
+#courses .container {
+	justify-content: space-between;
+	width: 58%;
+	padding: 1% 0;
+}
+
+#courses img {
+	width: 24%;
+	height: 18%;
+	border-radius: 10%;
+}
+
+#courses i {
+	color: #FF9900;
+	margin-left: 0.3vw;
+}
+
+/* teachers
+/* =================================================================== */
+
+#teachers {
+	padding: 0% 0 5%;
+}
+
+#teachers h3 {
+	font-weight: 800;
+	font-size: 2.1875vw;
+	padding: 0 0 2%;
+	color: #3F3F3F;
+}
+
+#teachers h4 {
+	font-weight: 300;
+	margin: 0;
+	font-size: 1.4vw;
+	color: #6A6F73;
+}
+
+#teachers a {
+	font-weight: 500;
+	font-size: 1.875vw;
+	text-decoration: underline;
+	color: #6176F7;
+}
+
+#teachers img {
+	border-radius: 50%;
+	width: 20%;
+	margin-right: 1%;
+}
+
+#teachers i {
+	margin: 0;
+}
+
+#teachers .container .column {
+	margin: auto 0.5%;
+	width: fit-content;
+}
+
+.bio {
+	width: 58%;
+	padding: 0% 0 3% 0;
+}
+
+#teachers .data p {
+	position: relative;
+	right: 0;
+}
+
+#teachers label {
+	color: #6176F7;
+	font-size: 1.5vw;
+	text-shadow: 0.0625vw 0.0625vw #000000;
+	margin: 0 0 0 1%;
+	width: fit-content;
+}
+
+/* footer
+/* =================================================================== */
+footer {
+	padding-top: 1.5625vw;
+	padding-bottom: 1.5625vw;
+	background-color: #21212F;
+}
+
+footer p {
+	color: #ffffff;
+	font-size: 1.7vw;
+	font-weight: 500;
+}
+
+footer a {
+	font-size: 1.25vw;
+	color: #CFD3D6;
+	line-height: 2.1875vw;
+}
+
+footer input {
+	font-size: 1vw;
+	border: none;
+}
+
+footer a:hover {
+	color: #ffffff;
+}
+
+footer li {
+	line-height: 0;
+}
+
+footer h3 {
+	margin-right: 7vw;
+}
+
+footer p span {
+	font-size: 1vw;
+	font-weight: 400;
+}
+
+#contactform {
+	display: flex;
+	height: 3vw;
+	width: 18vw;
+	border-radius: 0.625vw;
+	margin-top: 1.25vw;
+	padding: 0 9.375%;
+	background: #FFFFFF;
+}
+
+footer .footcon {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer button {
+	margin: auto;
+	height: fit-content;
+	width: fit-content;
+	border: none;
+	border-radius: 1.875vw;
+	background: #FFBB6A;
+	font-size: 1.25vw;
+	color: #FFFFFF;
+	margin-top: 1.25vw;
+	padding: 0.3125vw 1.25vw;
+}
+
+footer button:hover {
+	background: #fa9c32;
+	color: #000000;
+}
+
+#socials {
+	width: 16%;
+	height: 66%;
+	margin: 0.625vw 0.3125vw;
+	background: #FFFFFF;
+	border-radius: 50%;
+	position: relative;
+	right: 2vw;
+}
+
+.fa-brands {
+	color: #3461FD;
+	font-size: 1.7vw;
+	margin: 0.4375vw 0 0 0.6vw;
+}
+
+.fa-instagram {
+	margin: 0.4375vw 0 0 0.575vw;
+}
+
+.fa-facebook-f {
+	margin: 0.4375vw 0 0 0.77vw;
+}
+
+.fa-telegram {
+	margin: 0.4375vw 0 0 0.5vw;
+}

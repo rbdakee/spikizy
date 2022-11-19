@@ -1,0 +1,35 @@
+<html>
+
+<head>
+
+<Title>Log in</title>
+<!-- CSS
+   ================================================== -->
+<link rel="stylesheet" href="../static/css/register.css"> 
+   
+<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+<!-- The form authorization
+ ================================================== -->
+<div class="row">
+		<!-- Form connects with signin.php to check data validation and start session to take access for index.php -->		  
+            <form method="post"> 
+      			<h1>Log in</h1>                
+ 					<input name="Email" type="text" id="contactName" placeholder="Email" value="" minLength="6" required />                              
+	     		    <input name="Password" type="password" id="contactSubject" placeholder="Password"  value="" minLength="6" required />
+	                
+                    <a href="/forgot">Forgot password?</a><br>
+                    
+                    
+                     <button class="submitform">Submit</button>
+                     <p>
+                     Is this your first time here? - <a href="/registration">Sign up</a>
+                  </p>
+
+</body>
+
+<html>

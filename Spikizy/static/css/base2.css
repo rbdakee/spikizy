@@ -1,0 +1,225 @@
+html {
+	font-family: 'Segoe UI';
+}
+
+body {
+	margin: 0;
+}
+
+footer,
+header,
+section{
+	display: block;
+}
+
+a {
+	background: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+img {
+	border: 0;
+}
+
+hr {
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	height: 0;
+}
+
+button,
+input,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+html input[type="button"],
+input[type="submit"] {
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+	cursor: default;
+}
+
+input {
+	line-height: normal;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/*
+/* Basic Setup Styles
+/* =================================================================== */
+html {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-size: 62.5%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-weight: normal;
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+}
+
+
+/*
+/* Typography 
+====================================================================== */
+
+div,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	text-rendering: optimizeLegibility;
+	line-height: 1.2;
+}
+
+/* links
+---------------------------------------------------------------------- */
+a {
+	text-decoration: none;
+	line-height: 1vw;
+}
+
+a img {
+	border: none;
+}
+
+a:focus {
+	outline: none;
+}
+
+p a,
+p a:visited {
+	line-height: inherit;
+}
+
+.rightbutton{
+	padding: 0 0px 6px 4px;
+}
+
+.leftbutton{
+	padding: 0 4px 6px 0px;
+}
+
+/* 
+/* Grid
+===================================================================== */
+.row {
+	width: 75%;
+	margin: 0 12.5%;
+}
+
+.align-center {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	padding-right: 5%;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+}
+/* Statistic
+/* ================================================== */
+.stat {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0.5556vw 2.77778vw;
+}
+
+.stat .container {
+	margin-right: 0.5556vw;
+}
+
+.icons {
+	height: 4.4vw;
+	width: 4.4vw;
+    border-radius: 50%;
+}
+
+.heroscreen{
+	width: 84%;
+	margin: 0 auto;
+}
+/* feedback
+/* =================================================================== */
+.feedgrid {
+	padding: 2.22222vw 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 84%;
+	margin: 0 auto;
+}
+/* footer
+/* =================================================================== */

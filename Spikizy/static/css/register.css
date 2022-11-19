@@ -1,0 +1,90 @@
+h1 {
+	font-size: 30px;
+	padding-right: 20px;
+	letter-spacing: -1px;
+	text-align: center;
+	color: #718CFF;
+}
+
+h2 {
+	font-size: 25px;
+	padding-right: 20px;
+	line-height: 5px;
+	letter-spacing: -1px;
+	color: #718CFF;
+}
+
+
+p {
+    margin: 10px 0;
+	color:#718CFF;
+	text-align: end;
+}
+
+body {
+	height: 100hv;
+	background: url(../Elements/Back_page-0001.jpg) no-repeat center;
+	background-size: cover;
+	padding-top: 9%;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    color: #718CFF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	color: #AF77F6;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+	border-radius: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+	display: block;
+	padding: 18px 20px;
+	margin: 10px 0 12px 0;
+	border-color: #718CFF;
+	outline: none;
+	color: #000000;
+	font-family: "raleway-bold", sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	border-radius: 3px;
+	max-width: 100%;
+}
+
+button {
+    padding: 10px;
+    border: unset;
+    cursor: pointer;
+	background: #718CFF;
+	border-radius: 5px;
+}
+
+.button:hover,
+button:hover,
+input[type="button"]:hover {
+	color: #FFFFFF;
+	background: #AF77F6;
+}
